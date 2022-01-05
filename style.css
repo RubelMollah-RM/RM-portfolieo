@@ -46,13 +46,14 @@ body{
 
 /* another font apply for this itam */
 
-.continer h3{
+ h3, .big{
     font-family: 'Raleway', sans-serif;
     
 }
 .continer{
     padding: 30px;
     display: flex;
+    padding-bottom: 300px;
 }
 
 
@@ -68,5 +69,41 @@ body{
 .continer{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    background-position: ;
+}
+/* second section start */
+
+.big-drem{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    padding: 50px;
+}
+
+#D-image{
+    width: 50%;
+    height: 100%;
+    border-radius: 10%;
+    box-shadow: 2px 6px 2px 2px grey ;ing-left: 200px;
+    padding-left: 100px;
+}
+
+.first-half{
+    width: 50%;
+}
+
+.second-half{
+    width: 50%;
+    padding: 60px  10px;
+    text-align: justify;
+}
+
+.button{
+    background-image: linear-gradient(orange,yellow,rgb(0, 128, 122),rgb(255, 0, 157));
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
 }
