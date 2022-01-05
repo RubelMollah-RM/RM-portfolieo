@@ -5,8 +5,10 @@ body{
 
 .heading, .heading2{
     font-family: 'Shizuru', cursive;
-    
-    
+}
+
+.flexable-continer{
+    display: flex;
 }
 
 .div1{
@@ -52,7 +54,6 @@ body{
 }
 .continer{
     padding: 30px;
-    display: flex;
     padding-bottom: 300px;
 }
 
@@ -73,29 +74,28 @@ body{
 /* second section start */
 
 .big-drem{
-    display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    
-    padding: 50px;
+    padding: 90px;
 }
 
 #D-image{
     width: 50%;
     height: 100%;
     border-radius: 10%;
-    box-shadow: 2px 6px 2px 2px grey ;ing-left: 200px;
+    box-shadow: 2px 6px 2px 2px grey;
     padding-left: 100px;
 }
 
 .first-half{
     width: 50%;
+    text-align: justify;
 }
 
 .second-half{
     width: 50%;
-    padding: 60px  10px;
+    padding: 10px  10px;
     text-align: justify;
 }
 
@@ -106,4 +106,53 @@ body{
     border-radius: 5px;
     text-decoration: none;
     font-weight: 700;
+}
+
+
+.big-drem{
+    padding-bottom: 300px;
+}
+/* 3rd section */
+
+.expernce{
+    padding-bottom: 200px;
+}
+.present-time{
+    background-color: orange;
+    display: inline;
+}
+
+#ex{
+    font-size: 2rem;
+}
+
+.my-expernce{
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 20px 50px;
+}
+
+.expernce{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#border-image1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,rgb(128, 128, 128));
+    border-image-slice: 1;
+}
+
+#border-image2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 0, 64),rgb(128, 128, 128));
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
 }
